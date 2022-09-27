@@ -1,0 +1,185 @@
+
+.body {
+    background-color: rgb(229, 206, 215);
+    margin-left: 40px;
+    color: rgb(15, 2, 2);
+    font-family: roboto;
+}
+        
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 25px;
+
+}   
+
+.name {
+    font-family: arial;
+    display: inline-flex;
+
+
+}
+.photo {
+    width: 150PX;
+    border-radius: 75px;
+    border: solid;
+    margin-top: 25px;
+    margin-right: 50px;
+    object-fit: contain;
+    cursor: pointer;
+
+}
+.photo:hover {
+    width: 300px;
+}
+
+    
+
+.name {
+    font-size: 50px;
+    margin-top: 0;
+    padding-top: 20px;
+    padding-left: 30px;
+    width: 400px;
+    
+}
+.navbar {
+    display: flex;
+    flex-direction: row;
+    flex-shrink: 0;
+    justify-content: space-between;
+    font-size: 20px;
+    font-family: arial;
+    width: 400px;
+    cursor: pointer;
+    padding-right: 20px;
+    padding-top: 20px;
+    margin-right: 50px;
+    vertical-align: top;
+
+}
+
+.work-that-matters {
+    font-weight: bold;
+    font-size: 100px;
+    width: 500px;
+    display: flex;
+    padding-top: 50px;
+    margin: 0;
+    
+}
+ 
+.freelance {
+    font-size: 25px;
+    width: 750px;
+    line-height: 33px;
+    margin-left: 50px;
+    margin-top: 20px;
+
+}
+
+.About-Me {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px 50px 50px 50px;
+    padding: 10px 20px 20px 20px;
+    font-size: 20px;
+    height: 250px;
+
+}
+
+
+.Skills {
+    display: inline-block;
+    font-size: 20px;
+    height: 250px;
+    margin: 50px 50px 50px 50px;
+    padding: 10px 20px 20px 20px;
+    justify-items: center;
+    padding-bottom: 20px;
+
+
+}
+
+.rose-bear {
+    width: 200px;
+    border-radius: 30px;
+    float: left;
+    margin-bottom: 50px;
+    padding: 20px;
+}
+
+.skills-1 { 
+    display: inline-block;
+    width: 400px;
+    font-size: 20px;
+    margin-left: 10px;
+    padding: 10px; 
+    
+}
+
+.Contact-Me {    
+    font-size: 20px;
+    margin: 50px 50px 50px 50px;
+    padding: 10px 20px 20px 20px;
+    text-decoration-style: none;
+}
+
+.Email, .Phone {
+    width: 100px;
+    height: 30px;
+    padding: 2px 2px 4px 4px;
+    margin-left: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.Email:hover {
+    background-color: salmon;
+    color: white;
+
+}
+
+.Phone:hover {
+    background-color: salmon;
+    color: white;
+
+}
+
+.footer {
+    display: grid;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.Submit {
+    background-color: black;
+    color: white;
+    height: 40px;
+    width: 100px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+.Submit:hover {
+    background-color: white;
+    color: black;
+    transition: .001s;
+}
+
+@media (max-width: 650px) {
+    .body {
+        background-color: cyan;
+        color: brown;
+
+    }
+}
