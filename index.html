@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Passions+Conflict&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
 
 
     <link rel="stylesheet" href="portfolio.css">
@@ -16,9 +17,7 @@
 <body class="body">
     <header class="header">
         <h1 class="name">Dionne Angeles</h1>
-        <div>
-            
-    </div>
+    
         <div class="navbar"> 
             <a href="#About-Me">About Me</a>
             <a href="#Skills">Skills</a>
@@ -36,24 +35,30 @@
 
         
         <div class="About-Me" About Me>
-            <h2 id="About-Me"> About Me</h2>
+            <h2 id="About-Me"> About Me </h2>
                 <p>Growing up, I like creating cards and crafts and give them as a gift to my friends and families. As I turn older, I turned it into a side business where my friends order them during christmas and gift them to their families and friends.</p>
                 <p>A hobby turned into a passion. Now I would like to create my own website to introduce my own handmade crafts so everyone can see my designs. </p>
         </div>
 
-        <div class="Skills" Skills>
-            <h2 id="Skills">Skills</h2>
+    <div class="Skills" Skills>
+            <h2 id="Skills">Web Page and Skills</h2>
+        <div class="container">
+            <div class="row">
+              
+              <div class="col">
+                <a href="https://zg4219.github.io/movie-selector/"><img src="images/Screenshot_20221101_050440.png" alt="Screenshot of the movie application" class="movieapp" id="newflix"></a>
+                <p class="skills-1">
+                    HTML, CSS, JavaScript, card maker, and customize crafts.
+            </p>
+              </div>
 
-            <img src="images/Rose-bear.jpeg" alt="Rose bear photo" class="rose-bear"/>
-            
-            <p class="skills-1">
-                    HTML, CSS, JavaScript, Web designs, card maker, and customize crafts.
-                </p>
-                
+              <div class="col">
+                <a href="https://www.instagram.com/p/COHDM32FBT_/?igshid=YmMyMTA2M2Y="><img src="images/SmartSelect_20221101_230510_Instagram.jpg" alt="IG photo of engraved coaster" class="IGphoto"/>
+            </div>
+            </div>
         </div>
+    </div>
 
-
-    
         <div class="Contact-Me" Contact Me>
             
             <h2 id="Contact-Me">Contact Me</h2>
@@ -75,19 +80,19 @@
                 <label for="FirstName"> First name: </label>
                 <input type="text" 
                        name="firstName" 
-                       placeholder="First name" 
+                       placeholder="Jane" 
                        required>
                 
                 <label for="LastName"> Last name: </label>
                 <input type="text" 
                        name="LastName" 
-                       placeholder="Last name" 
+                       placeholder="Doe" 
                        required>
                 
                <label for="Email"> Email: </label>
                 <input type="text" 
                        name="Email" 
-                       placeholder="Email" 
+                       placeholder="test123@yahoo.com" 
                        required>
             
                    <input class="Submit"type="submit" value="Submit">
