@@ -16,7 +16,9 @@
 
 .name {
     display: inline-flex;
-    font-style: italic;
+    font-style: bold;
+    font-family: Roboto;
+
 }
 
 .photo {
@@ -54,25 +56,6 @@
     padding-top: 20px;
     margin-right: 50px;
     vertical-align: top;
-
-}
-
-.work-that-matters {
-    font-weight: bold;
-    font-size: 100px;
-    width: 500px;
-    display: flex;
-    padding-top: 50px;
-    margin-left: 30px;
-    
-}
- 
-.freelance {
-    font-size: 25px;
-    width: 750px;
-    line-height: 33px;
-    margin-left: 50px;
-    margin-top: 20px;
 
 }
 
