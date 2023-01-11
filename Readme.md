@@ -1,5 +1,6 @@
-# My Portfolio Link
+# My Portfolio  Github Link and Website Link
 https://github.com/ZG4219/My-Portfolio
+https://zg4219.github.io/My-Portfolio/
 
 This portfilio is about myself.
 I used HTML and CSS to build this web page.
