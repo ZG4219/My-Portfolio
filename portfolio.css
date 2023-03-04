@@ -142,6 +142,18 @@ body {
     max-width: 100%;
   }
   
+  img {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  img:hover {
+    transform: scale(1.2);
+  }
+  
+  img:active {
+    transform: scale(1.5);
+  }
+  
   /* Contact Me Styles */
   .Contact-Me {
     background-color: #fff;
