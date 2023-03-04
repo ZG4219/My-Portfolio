@@ -1,4 +1,5 @@
 # My Portfolio  Github Link and Website Link
+
 https://github.com/ZG4219/My-Portfolio
 https://zg4219.github.io/My-Portfolio/
 
@@ -16,7 +17,7 @@ I am proud that I can make my own website to show to family and friends.
 
 ## Project Links:
 
-https://zg4219.github.io/movie-selector
-https://recipes-cook-book.herokuapp.com/
+- Movie Search App: https://zg4219.github.io/movie-selector
+- Recipe Cook Book: https://recipes-cook-book.herokuapp.com/
 
 
